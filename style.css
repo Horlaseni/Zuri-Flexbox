@@ -1,0 +1,124 @@
+h1 {
+    font-family: "Big Shoulders Display", cursive;
+  }
+  
+  p,
+  button {
+    font-family: "Lexend Deca", sans-serif;
+  }
+  
+  * {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'lexend deca';
+    font-weight: 400;
+  }
+  
+  h1 {
+    color: #ffffff;
+    font-size: 2.5rem;
+  }
+  
+  p {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 1.2rem;
+  }
+  
+  section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 2rem;
+    min-height: 100vh;
+  }
+  
+  @media screen and (min-width: 650px) {
+    section {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+    }
+  }
+  
+  .btn {
+    border-radius: 25px;
+    padding: 1rem 2rem;
+    text-transform: capitalize;
+    background-color: #f2f2f2;
+    margin-top: auto;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    border: 2px solid transparent;
+    -webkit-transition: 0.2s ease-in color, 0.2s ease-in background-color;
+    transition: 0.2s ease-in color, 0.2s ease-in background-color;
+  }
+  
+  .btn:hover {
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+  }
+  
+  .btn--one {
+    color: #e28625;
+  }
+  
+  .btn--two {
+    color: #006971;
+  }
+  
+  .btn--three {
+    color: #004140;
+  }
+  
+  .card {
+    border-radius: 8px;
+    padding: 2rem 2rem 0 2rem;
+    margin-bottom: 2rem;
+    max-width: 20rem;
+    height: 441px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  
+  .card__icon, .card__title, .card__text {
+    margin-bottom: 2rem;
+  }
+  
+  .card--one {
+    background-color: #e28625;
+  }
+  
+  .card--two {
+    background-color: #006971;
+  }
+  
+  .card--three {
+    background-color: #004140;
+  }
